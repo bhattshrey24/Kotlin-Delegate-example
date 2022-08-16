@@ -74,7 +74,7 @@ class DeepLinkHandlerImp() : DeepLinkHandler {
 }
 
 
-// below are the example of property delegate
+// below are the example of property delegate . Delegate property provides a way to override setters and getters for a object
 val ob by lazy {  // this is provided by android
     println("Hey!!")
     24
